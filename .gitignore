@@ -1,0 +1,38 @@
+# Environments and generated Python files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Local settings, credentials, and operating-system files
+.env
+.env.*
+.streamlit/secrets.toml
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Keep research data and local analysis outputs out of the repository.
+# Add any additional sensitive paths before your first commit.
+data/
+private_data/
+uploads/
+results/
+exports/
+demo_output/
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.sav
+*.dta
+*.csv
+!sample_data/example_dataset.csv
+*.log
